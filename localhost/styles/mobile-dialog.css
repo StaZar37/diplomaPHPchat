@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+header,
+main {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-color: #f5e9ce !important;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+/* Шапка */
+
+.header-above-search {
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+}
+
+.small-text-under-name-left,
+.small-text-under-name-right {
+    font-size: 11px;
+}
+
+
+.logout {
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.search input {
+    border-radius: 10px;
+    height: 30px;
+    width: 87%;
+    border: none;
+    outline: none;
+}
+
+.magnifier {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 7px;
+    margin-top: 2px;
+    transition: all 0.2s ease;
+}
+
+.magnifier:active {
+    color: black;
+}
+
+/* Усі чати */
+
+.block-under-search {
+    background-image: linear-gradient(to right, rgb(101, 150, 241)5%, rgb(61, 118, 184));
+    max-height: 100%;
+    border-right: solid 1px;
+    border-color: rgb(123, 123, 123);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+.search input[type="text"] {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.krr {
+    background-color:
+        rgb(231, 232, 235);
+    font-size: 18px;
+    border-bottom: solid 2px rgb(101, 150, 241);
+    height: 50px !important;
+    ;
+    width: 100% !important;
+    text-align: center;
+}
+
+.scrol-block {
+    overflow-y: auto;
+    max-height: 100vh;
+    border-right: solid 1px rgb(123, 123, 123);
+}
+
+.scrol-block::-webkit-scrollbar,
+.chat-box-mes::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+    display: none;
+}
+
+
+.users_list a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(231, 232, 235);
+    border-bottom: solid 2px rgb(101, 150, 241);
+    height: 50px;
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.users_list a:hover {
+    color: black;
+}
+
+.user-chat-name {
+    font-size: 15px;
+}
+
+.user-msg {
+    font-size: 11px;
+}
+
+.status-dot {
+    color: green;
+}
+
+.status-dot.offline {
+    color: gray;
+}

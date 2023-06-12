@@ -1,0 +1,55 @@
+@media (max-height: 900px) {
+    .scrol-block {
+        max-height: 90vh;
+    }
+
+}
+
+@media (max-height: 850px) {
+    .scrol-block {
+        max-height: 87vh;
+    }
+
+}
+
+@media (max-height: 650px) {
+    .scrol-block {
+        max-height: 85vh;
+    }
+
+}
+
+@media (max-height: 600px) {
+    .scrol-block {
+        max-height: 83vh;
+    }
+
+}
+
+@media (max-height: 550px) {
+    .scrol-block {
+        max-height: 80vh;
+    }
+
+}
+
+@media (max-height: 450px) {
+    .scrol-block {
+        max-height: 77vh;
+    }
+
+}
+
+@media (max-height: 400px) {
+    .scrol-block {
+        max-height: 74vh;
+    }
+
+}
+
+@media (max-height: 350px) {
+    .scrol-block {
+        max-height: 70vh;
+    }
+
+}

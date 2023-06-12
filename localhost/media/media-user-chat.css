@@ -1,0 +1,159 @@
+@media (max-width: 1400px) {
+    .inputTime {
+        right: 7%;
+        width: 6%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .search input,
+    .input-field {
+        font-size: 10px !important;
+    }
+
+    .search input {
+        padding-left: 5px !important;
+    }
+
+    .main-chat-user-msg-left {
+        margin-left: 10% !important;
+    }
+
+    .main-chat-user-msg-right {
+        margin-right: 10% !important;
+    }
+
+    .details {
+        width: 100% !important;
+    }
+
+    .chat-box-mes {
+        width: 100%;
+    }
+
+    .inputTime {
+        right: 10%;
+        width: 8%;
+    }
+
+}
+
+@media (min-width: 767.99px) {
+    .back_arrow_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .block-under-search {
+        display: none;
+    }
+
+    .back_arrow {
+        display: none;
+    }
+
+    .back_arrow-mobile {
+        display: block;
+    }
+
+    .chat-box {
+        display: none;
+    }
+
+    .chat-area {
+        margin-top: 5% !important;
+        width: 80% !important;
+        /* min-height: 30%; */
+    }
+
+    /* .scrol-block {
+        max-height: 10vh !important;
+    } */
+
+}
+
+@media (max-width: 575.99px) {
+    .input-field {
+        width: 50vw !important;
+    }
+
+    .inputTime {
+        right: 12%;
+        width: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .inputTime {
+        right: 15%;
+        width: 12%;
+    }
+}
+
+
+
+@media (max-height: 850px) {
+    .scrol-block {
+        max-height: 87vh;
+    }
+
+}
+
+@media (max-height: 650px) {
+    .scrol-block {
+        max-height: 85vh;
+    }
+
+}
+
+@media (max-height: 600px) {
+    .scrol-block {
+        max-height: 83vh;
+    }
+
+}
+
+@media (max-height: 550px) {
+    .scrol-block {
+        max-height: 80vh;
+    }
+
+    .chat-area {
+        height: 75vh;
+    }
+
+
+}
+
+@media (max-height: 450px) {
+    .scrol-block {
+        max-height: 77vh;
+    }
+
+    .chat-area {
+        height: 70vh;
+    }
+}
+
+@media (max-height: 400px) {
+    .scrol-block {
+        max-height: 74vh;
+    }
+
+    .chat-area {
+        height: 65vh;
+    }
+}
+
+@media (max-height: 350px) {
+    .scrol-block {
+        max-height: 70vh;
+    }
+
+    .chat-area {
+        height: 60vh;
+    }
+}

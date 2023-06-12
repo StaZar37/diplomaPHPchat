@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.leftPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 27, 28);
+    flex: 1;
+    height: 100%;
+}
+
+
+.rightPage {
+    background-image: linear-gradient(to bottom, rgb(52, 37, 122), rgb(157, 148, 218));
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
+
+.buttonLogin {
+    width: 25%;
+    /* height: 75px; */
+    border-radius: 45px;
+    border-color: white;
+    background-image: linear-gradient(to bottom, rgb(200, 194, 200) 20%, rgb(225, 225, 225), rgb(255, 255, 255));
+    font-family: 'Tenor Sans', sans-serif;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.buttonApplication {
+    width: 25%;
+    /* height: 75px; */
+    border-radius: 45px;
+    border-color: white;
+    background-image: linear-gradient(to bottom, rgb(200, 194, 200) 20%, rgb(225, 225, 225), rgb(255, 255, 255));
+    font-family: 'Tenor Sans', sans-serif;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+p {
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.mainHeader {
+    color: rgb(255, 255, 255);
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.introHead {
+    color: rgb(255, 255, 255);
+    font-family: 'Tenor Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.buttonLogin:hover,
+.buttonApplication:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
